@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Days+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+
+body{
+    
+    height: 100vh;
+}
+header{
+    background: #20B2AA;
+    width: 100%;
+    height: 138px;
+    flex-shrink: 0;
+}
+
+.logo{
+    color: #FFF8DC;
+    padding: 3em 0 0 ;
+    font-family: 'Climate Crisis', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-bottom: none;
+}
+
+.lien{
+    
+    padding-left: 5em;
+    padding-bottom: 2em;
+}
+
+.liens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.user-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* Positionner en dessous du conteneur d'icône */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+li{
+    margin-left: 1em;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+  
+    color: #FFF;
+    font-family: 'Days One', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+
+li a:hover{
+    color: 	#008080;
+    transition: 0.5s;
+    
+}
+
+main{
+    position: relative;
+}
+
+img.img{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+        width: 100%; /* Ajuste la largeur de l'image pour remplir la largeur du conteneur parent */
+        height: auto; /* Permet à la hauteur de l'image de s'ajuster de manière proportionnelle */
+        display: block; /* Supprime l'espace réservé sous l'image lorsqu'elle est affichée en ligne */
+    
+}
+.form{
+    
+   text-align: center;
+    width: 50%;
+height: 500px;
+border-radius: 40px;
+background: rgba(19, 150, 143, 0.501);
+border: 1px solid #008B8B;
+position: absolute; /* Position absolue par rapport au conteneur parent (main) */
+    top: 50%; /* Positionne le haut du formulaire au milieu du conteneur parent (main) */
+    left: 50%; /* Positionne la gauche du formulaire au milieu du conteneur parent (main) */
+    transform: translate(-50%, -50%); 
+
+}
+
+.form h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFF;
+    font-family: 'Days One', sans-serif;
+    margin: 2em;
+}
+
+.champ{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 50%;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+
+input[type="submit"] {
+    background-color: #fff;
+    transition: 1s;
+    
+}
+
+input[type="submit"]:hover{
+    
+    background-color: #20B2AA;
+    cursor: pointer;
+    color: #FFF;
+}
+
+a.vert{
+    transition: 1s;
+}
+a.vert:hover{
+    color: #20B2AA;
+    cursor: pointer;
+}
+
+
+table{
+        margin-left: 11em;
+        border-spacing: 10px 10px; /* Espacement horizontal de 10px, espacement vertical de 5px */
+      
+}
+

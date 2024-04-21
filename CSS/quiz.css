@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Days+One&family=Joti+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: #5F9EA0;
+    color: #fff;
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+
+form{
+    /* border: 1px solid blanchedalmond; */
+   width: 80%;
+    /* border-radius: 5em; */
+   margin-left: 3em;
+}
+
+
+
+input{
+    margin: 1em;
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    transition: 1s;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 30%;
+    margin-top: 1em;
+    margin-left: 6em;
+    padding: 1em;
+}
+
+input[type="submit"]:hover{
+    
+    background-color: #20B2AA;
+    cursor: pointer;
+    color: #FFF;
+}
+
+input[type="radio"]{
+    
+    color: #20B2AA;
+    cursor: pointer;
+    color: #FFF;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20em;
+    margin-bottom: 2em;
+    
+}
